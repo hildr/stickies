@@ -1,0 +1,86 @@
+body {
+  background: #eeeeee;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 0;
+}
+
+a {
+  color: crimson;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+
+/* Layout
+------------------------------------------*/
+
+header,
+.container,
+footer {
+  margin: 0 auto;
+  width: 88%;
+  max-width: 1080px;
+}
+
+.wrapper {
+  padding: 1em 0;
+  background: #ffffff;
+}
+
+/* Stickies
+------------------------------------------*/
+.stickies{
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.stickies li{
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 250px;
+  background:-webkit-linear-gradient(135deg, transparent 32px, #46a82d 20px, #70c757);
+  text-align: center;
+  padding-top: 40px;
+  transform: rotate(10deg);
+  font-style: oblique;
+  color: white;
+}
+
+.stickies li:nth-child(2){
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 250px;
+  background:-webkit-linear-gradient(135deg, transparent 32px, #a69c2e 20px, #c7b857);
+  text-align: center;
+  padding-top: 40px;
+  transform: rotate(-10deg);
+}
+
+.stickies li:nth-child(3){
+  margin: 20px;
+  font-size: 20px;
+  width: 250px;
+  height: 250px;
+  background:-webkit-linear-gradient(135deg, transparent 32px, #8e2ea6 20px, #b457c7);
+  text-align: center;
+  padding-top: 40px;
+  transform: rotate(15deg);
+}
+
+.note{
+  font-size: 16px;
+  border-radius: 5%;
+  background: linear-gradient(to bottom right, lightblue, white);
+  box-shadow: 1px 1px 2px black, 0 0 8px black, 0 0 5px darkblue;
+}
+button{
+  font-size: 14px;
+  border-radius: 10%;
+  background: linear-gradient(white, grey);
+}
